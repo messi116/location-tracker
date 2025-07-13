@@ -1,3 +1,4 @@
+
 # Location Tracker Tool
 
 This tool is designed to track the IP address and location of any user who opens a disguised PDF file. It is useful for educational or ethical testing purposes like phishing simulation, red teaming, or awareness campaigns.
@@ -35,8 +36,21 @@ pip install -r requirements.txt
 
 python3 server.py
 
+## Info about how to send pdf to the target 
+
 Send the PDF (legitimate_document.pdf) to the target.
+
+## HOw to capture logs(ipv6+location(city))
 
 Wait for logs in visitor_logs.txt when the file is opened.
 
 
+# 🛰️ Black Locator Tracker
+
+A Flask-based IP location logger.
+
+## 🔥 Terminal Banner
+
+![Banner Screenshot](/home/kali/Pictures/black-locator-banner.png)
+
+## 🚀 Run It
