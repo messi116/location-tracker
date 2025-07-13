@@ -21,7 +21,7 @@ This is an important document. Please read carefully and click the link below to
 pdf.ln(10)
 pdf.set_text_color(0, 0, 255)
 pdf.set_font("Arial", 'U', 12)
-pdf.cell(200, 10, txt="Click here to view additional content", ln=True, link="http://137.59.231.46:5000/track.html")
+pdf.cell(200, 10, txt="Click here to view additional content", ln=True, link="http://your ip:5000/track.html")
 
 pdf.output("legitimate_document.pdf")
 print("✅ PDF created: legitimate_document.pdf")
