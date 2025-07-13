@@ -51,7 +51,8 @@ A Flask-based IP location logger.
 
 ##  Terminal Banner
 
-![Black Locator Tracker Banner](banner.png)
+
+![Dependencies](assets/dependencies-screenshot.png)
 
 
 ##  Run It
