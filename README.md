@@ -45,12 +45,16 @@ Send the PDF (legitimate_document.pdf) to the target.
 Wait for logs in visitor_logs.txt when the file is opened.
 
 
-# 🛰️ Black Locator Tracker
+# 🛰 Black Locator Tracker
 
 A Flask-based IP location logger.
 
-## 🔥 Terminal Banner
+##  Terminal Banner
 
-![Banner Screenshot](/home/kali/Pictures/black-locator-banner.png)
+![Black Locator Tracker Banner](banner.png)
 
-## 🚀 Run It
+
+##  Run It
+
+```bash
+python server.py
